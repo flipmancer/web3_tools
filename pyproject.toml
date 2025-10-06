@@ -21,3 +21,6 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/flipmancer/web3-tools"
 Repository = "https://github.com/flipmancer/web3-tools"
+
+[tool.setuptools.packages.find]
+where = ["src"]
