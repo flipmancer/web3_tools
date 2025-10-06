@@ -17,14 +17,16 @@ This project provides a simple framework for adding and running new utilities. A
 
 -----
 
-## Installation
+## Cli Tool Installation
+
+To install the package and its dependencies, clone this repository and run the following command from the project's root directory:
 ```shell
-  pip install git+https://github.com/flipmancer/web3_tools
+  pip install -e .
 ```
 
-## Usage
+### Cli Usage
 
-### Interactive Menu
+#### Interactive Menu
 
 For a guided experience, use the interactive menu.
 
@@ -32,10 +34,15 @@ For a guided experience, use the interactive menu.
   python cli.py menu
 ```
 
-### Direct Command
+#### Direct Command
 
 Run any function directly. For example, to decode signatures:
 
 ```shell
   python cli.py run -p decoders -m decode_signatures -f decode_func_signatures -a "a9059cbb 39509351"
+```
+
+## Package Installation
+```shell
+  pip install git+https://github.com/flipmancer/web3_tools
 ```
